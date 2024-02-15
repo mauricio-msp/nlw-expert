@@ -71,7 +71,7 @@ export function NoteCard({ note, onDeleteNote }: NoteCardProps) {
           </p>
         )}
       </DialogTrigger>
-      <DialogContent className="flex h-[70vh] max-w-[640px] flex-col gap-0 overflow-hidden border border-accent p-0">
+      <DialogContent className="flex h-screen max-w-[640px] flex-col gap-0 overflow-hidden border border-accent p-0 md:h-[70vh]">
         <div className="flex flex-1 flex-col gap-3 bg-card p-5">
           <span className="flex-shrink-0 text-sm font-medium">
             {formatDistanceToNow(new Date(note.date), {
