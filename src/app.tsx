@@ -77,7 +77,7 @@ export function App() {
 
       <Separator className="h-px w-full bg-muted" />
 
-      <div className="grid auto-rows-[250px] grid-cols-3 gap-6">
+      <div className="grid auto-rows-[250px] grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         <NewNoteCard onCreateNote={onCreateNote} />
 
         {filteredNotes.map((note) => (
