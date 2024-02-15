@@ -106,7 +106,7 @@ export function NewNoteCard({ onCreateNote }: NewNoteCardProps) {
           automaticamente.
         </p>
       </DialogTrigger>
-      <DialogContent className="flex h-screen max-w-[640px] flex-col gap-0 overflow-hidden border border-accent p-0 md:h-[70vh]">
+      <DialogContent className="flex h-full max-w-[640px] flex-col gap-0 overflow-hidden border border-accent p-0 md:h-[70vh]">
         <form className="flex flex-1 flex-col">
           <div className="flex flex-1 flex-col gap-3 bg-muted p-5">
             <span className="flex-shrink-0 text-sm font-medium">
